@@ -9,6 +9,7 @@ const ProductCard = ({image,title})=>{
 }
 
 const PAGE_SIZE = 10
+
 export default function Products() {
 
     const [products ,setProducts] = useState([])
